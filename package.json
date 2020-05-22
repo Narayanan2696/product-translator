@@ -1,0 +1,24 @@
+{
+  "name": "product-translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon run app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "busboy": "^0.3.1",
+    "dotenv": "^8.2.0",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "i18n-mongo": "^1.1.5",
+    "localize": "^0.4.7",
+    "mongoose": "^5.9.15",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4"
+  }
+}
